@@ -48,6 +48,6 @@ R script: Cell Count & OD.R\
 Input files:\
     - Direct_Count_and_OD.xlsx
 
-**Other files included:**
-biostats.R and documentation (source package used for some of the plots)
+**Other files included:**\
+biostats.R and documentation (source package used for some of the plots)\
 plainstat.R (code containing commonly used personal functions)
