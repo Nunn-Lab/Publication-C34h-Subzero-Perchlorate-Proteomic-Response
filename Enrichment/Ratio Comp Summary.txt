@@ -1,0 +1,69 @@
+Module	Type	GO	Description	Ratio	P-value
+Blue	Cellular	GO:0005737	cytoplasm	153/743	7.36E-14
+Blue	Cellular	GO:0044424	intracellular part	179/743	1.08E-12
+Blue	Cellular	GO:0044464	cell part	244/743	1.45E-7
+Blue	biological	GO:0009987	cellular process	387/743	4.77E-7
+Blue	biological	GO:0008152	metabolic process	372/743 	1.19E-6
+Blue	biological	GO:0006082	organic acid metabolic process	125/743	 1.66E-6
+Blue	biological	GO:0044238	primary metabolic process	308/743	1.86E-6
+Blue	biological	GO:0044237	cellular metabolic process	325/743	1.98E-6
+Blue	biological	GO:0019752	carboxylic acid	123/ 743	2.76E-6
+Blue	biological	GO:0071704	organic substance metabolic process	341/743	2.85E-6
+Blue	biological	GO:0043436	oxoacid metabolic process	123/743	4.71E-6
+Blue	biological	GO:0006807	nitrogen compound metabolic process	293/743	1.38E-5
+Blue	biological	GO:0006520	cellular amino acid metabolic process	79/743	4.87E-5
+Blue	biological	GO:0006725	cellular aromatic compound metabolic process	170/743	6.12E-5
+Blue	biological	GO:0008652	cellular amino acid biosynthetic process	51/743	3.42E-4
+Blue	biological	GO:1901360	organic cyclic compound metabolic process	173/743	3.61E-4
+Blue	biological	GO:0044281	small molecule metabolic process	163/743	5.02E-4
+Blue	biological	GO:0016053	organic acid biosynthetic process	72/743	5.28E-4
+Blue	biological	GO:0046394	carboxylic acid bioxynthetic process	71/743	9.16E-4
+Blue	biological	GO:0046483	heterocycle metabolic process	166/743	1.11E-3
+Blue	biological	GO:1901607	alpha-amino acid biosynthetic process	46/743	1.77E-3
+Blue	biological	GO:0034660	ncRNA metabolic process	47/743	2.07E-3
+Blue	biological	GO:0090304	nucleic acid metabolic process	93/743	2.28E-3
+Blue	biological	GO:0044283	small molecule biosynthetic process	91/743	3.6E-3
+Blue	biological	GO:0006139	nucleobase-containing compound mtabolic process	135/743	3.95E-3
+Blue	biological	GO:0009073	aromatic amino acid family biosynthetic process	20/743	4.44E-3
+Blue	biological	GO:0035383	thioester metabolic process	9/743	9.68E-3
+Blue	biological	GO:0006637	acyl-CoA metabolic process	9/743	9.68E-3
+Blue	biological	GO:0006418	tRNA aminoacylation for protein translation	16/743	1.47E-2
+Blue	biological	GO:0016070	RNA metabolic process	61/743	1.81E-2
+Blue	biological	GO:0044249	cellular biosynthetic process	173/743	3.18E-2
+Blue	biological	GO:0034641	cellular nitrogen compound metabolic process	186/743	3.29E-2
+Blue	biological	GO:1901605	alpha-amino acid metabolic process	56/743	3.35E-2
+Blue	biological	GO:0043038	amino acid activation	16/743	3.58E-2
+Blue	biological	GO:0043039	tRNA aminoacylation	16/743	3.58E-2
+Blue	Molecular	GO:0043168	anion binding 	193/743	1.57E-13
+Blue	Molecular	GO:0036094	small molecule binding	211/743	7.42E-13
+Blue	Molecular	GO:0000166	nucleotide binding	191/743	7.51E-12
+Blue	Molecular	GO:1901265	nucleoside phosphate binding	191/743	7.51E-12
+Blue	Molecular	GO:0008144	drug binding	155/743	2.12E-11
+Blue	Molecular	GO:0032553	ribonucleotide binding	156/743	2.21E-11
+Blue	Molecular	GO:0097367	carbohydrate derivative binding	159/743	8.68E-11
+Blue	Molecular	GO:0032559	adenyl ribonucleotide binding	135/743	1.44E-10
+Blue	Molecular	GO:0005524	ATP binding	134/743	1.9E-10
+Blue	Molecular	GO:0030554	adenyl nucleotide binding	135/743	2.02E-10
+Blue	Molecular	GO:0032555	purine ribonucleotide binding	146/743	4.87E-10
+Blue	Molecular	GO:0017076	purine nucleotide binding	146/743	6.64E-10
+Blue	Molecular	GO:0035639	purine ribonucleoside triphosphate binding	143/743	8.07E-10
+Blue	Molecular	GO:0043167	ion binding	271/743	2.93E-9
+Blue	Molecular	GO:0097159	organic cyclic compound binding	281/743	1.59E-6
+Blue	Molecular	GO:1901363	heterocyclic compound binding	281/743	1.59E-6
+Blue	Molecular	GO:0003824	catalytic activity	435/743	1.87E-5
+Blue	Molecular	GO:0005488	binding	350/743	4.84E-5
+Blue	Molecular	GO:0016874	ligase activity	42/743	1.48E-3
+Blue	Molecular	GO:0140098	catalytic activity, acting on RNA	43/743	8.65E-3
+Blue	Molecular	GO:0016875	ligase activity, forming carbon-oxygen bonds	16/743	2.65E-2
+Blue	Molecular	GO:0004812	aminoacyl-tRNA ligase activity	16/743	2.65E-2
+Turquoise	Cellular	GO:0009279	cell outer membrane	33/1014	5.61E-3
+Turquoise	Cellular	GO:0044462	external encapsulating structure part	33/1014	5.88E-03
+Turquoise	Cellular	GO:0019867	outer membrane	34/1014	1.35E-02
+Turquoise	biological	GO:0044282	small molecule catabolic process	31/1014	3.12E-3
+Turquoise	biological	GO:0009056	catabolic process	56/1014	3.92E-2
+Turquoise	biological	GO:0009063	cellular amino acid catabolic process	18/1014	4.35E-2
+
+
+
+
+
