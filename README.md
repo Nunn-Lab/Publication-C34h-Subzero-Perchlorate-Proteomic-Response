@@ -1,23 +1,53 @@
 # C34h-Subzero-Perchlorate-Proteomic-Response
-Supporting documentation for Timmins-Schiffman et al. publication.
-The documents included in this repository will allow you to recreate the figures in the paper.
+Supporting documentation for publication.
+The documents included in this repository will allow you to recreate the analysis and figures in the paper.
 
-Figure 1. Nonmetric multidimensional scaling plot of the incubation DDA dataset.
-input file: ABACUS_copepods_metazoan_output.csv
-R script: Figure 1 NMDS.R
+**Figure 1A. NMDS of all time points between Control and WCL medium.**\
+Folder: NMDS\
+R script: NMDS.R\
+Input files:\
+    - ABACUS_output.csv\
+    - metadata.csv
 
-Figure 2. Log fold change of differentially abundant DDA proteins.
-input files: circadian DDA proteins.csv; DDA DAPs RK with annot copy.csv
-R script: Figure 2 script.R
+**Figure 1B. Weighted gene correlation network analysis (WGCNA) of different culture conditions (Time by day, WCL Treatment, Temperature, and estimated growth curve phase of lag, log, stationary or death)**\
+Folder: WGCNA\
+R script: WGCNA Prep.R must be run first to produce the necessary files to create the plot in WGCNA Plots.R\
+Input files:\
+    - ABACUS_output.csv\
+    - metadata.csv\
+Additional Output files: Protein IDs within each WGCNA module\
+    - module_blue_prot.txt\
+    - module_brown_prot.txt\
+    - module_turquoise_prot.txt
 
-Figure 3. PCoA plots of targeted proteomics (in situ and incubation)
-input file: file for PCoA.csv
-R script: Figure 3 pcoa.R
+**Figure 2. Abundance Analysis (QSPEC) of Control vs. WCL medium.**\
+Folder: Volcano Plot\
+R script: Volcano Plot.R\
+Input files:\
+    - 34h_annotations.csv\
+    - ABACUS_output.csv\
+    - QSPEC_CW.txt_qspec_fdr\
+    - module_blue_prot.txt\
+    - module_brown_prot.txt\
+    - module_turquoise_prot.txt
 
-Figure 4. Full cluster plots used to make this figure.
-input files: file for PCoA.csv
-R script: Figure 4 cluster.R
+**Figure 3. Enrichment results for blue (blue module) and turquoise (turquoise module) WGCNA module in terms of protein ratio**\
+Folder: Enrichment\
+R script: Module Enrichment.R\
+Input file:\
+    - Ratio Comp Summary.txt\
+    - blue_uniprot_geneID.tsv\
+    - turquoise_uniprot_geneID.tsv\
+    - module_blue_prot.txt\
+    - module_turquoise_prot.txt\
+    - module_brown_prot.txt
 
-Other files included:
+**Supplemental Figure 1. Bacterial growth curves of C34h at -1C and -5C under different media conditions with estimated growth curves and loess smoothing**\
+Folder: Cell Count\
+R script: Cell Count & OD.R\
+Input files:\
+    - Direct_Count_and_OD.xlsx
+
+**Other files included:**
 biostats.R and documentation (source package used for some of the plots)
-comet.params file is the parameters file used in the Comet search of the DDA data
+plainstat.R (code containing commonly used personal functions)
