@@ -30,6 +30,7 @@ Input files:\
     - module_blue_prot.txt\
     - module_brown_prot.txt\
     - module_turquoise_prot.txt
+    - C34H_abacus_new_naming.csv
 
 **Figure 3. Enrichment results for blue (blue module) and turquoise (turquoise module) WGCNA module in terms of protein ratio**\
 Folder: Enrichment\
